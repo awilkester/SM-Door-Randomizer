@@ -1,0 +1,23 @@
+Future plans
+	-Add backtracking features.
+	-Refine item randomization.
+	-Learn to create GUI to make the entire thing less cumbersome.
+
+v0.3a
+	-Added item randomization! Currently in beta testing.
+		-you can shuffle items!
+		-you can control the ratio of common items.
+		-you can control the amount of unique items.
+		-you can control the pickup values.
+		-removed some rooms from the shuffle list.
+
+v0.2
+	-Removed the Gravity Suit one-way exit from the global shuffle to prevent impossible situations (the door can never be opened from the left!)
+	-Removed the Maridia Tunnel from the shuffles (game glitches out if they are disconnected from their default setup.)
+	-Added custom local percentages.
+	-Changed local shuffling rules so item rooms cannot break them (item rooms always backtrack in local shuffle regardless of setting.)
+	-Header detection added: The program will determine the header size, and renormalize the ROM to have the correct header.
+	-Seeding added: Every successful ROM creation will output a seed, which can be used to regenerate the ROM exactly in this program!
+
+v0.1
+	-created!
